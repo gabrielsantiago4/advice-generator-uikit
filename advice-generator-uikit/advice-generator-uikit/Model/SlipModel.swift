@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+
+struct Slip: Codable {
+    
+    let slip_id: Int
+    let advice: String
+}
+
+struct SlipModel {
+    
+    let slip: Slip
+    
+}
